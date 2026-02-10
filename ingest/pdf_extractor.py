@@ -6,7 +6,7 @@ from typing import Optional
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 
-def extract_text_from_pdf("E:\8th Sem\MAJOR\Documind\data\pdfs\01.pdf": str) -> Optional[str]:
+def extract_text_from_pdf(pdf_path: str) -> Optional[str]:
     """
     Extracts text from a local PDF file and saves it as a .txt file
     with suffix '_extracted' in the same directory.
