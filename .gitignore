@@ -1,1 +1,22 @@
 .streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# Streamlit / Secrets
+.streamlit/
+*.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
